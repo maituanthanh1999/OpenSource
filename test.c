@@ -10,7 +10,6 @@ int main()
     printf("enter text: ");
     fgets(ptr1,4,stdin);
     puts(ptr1);
-    printf("length: %d-%d ",strlen(ptr1),sizeof(ptr1));
+    printf("length is: %d-%d ",strlen(ptr1),sizeof(ptr1));
     return 0;
-
 }
